@@ -1,0 +1,20 @@
+{
+    "name": "wiw/renovate-composer-conflict",
+    "description": "This repository has just been created to demonstrate a feature request",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Willi Wehmeier"
+        }
+    ],
+    "repositories": {
+        "0": {
+            "type": "path",
+            "url": "_packages/*"
+        }
+    },
+    "require": {
+        "whmyr/dummypackage": "^1.0",
+        "whmyr/somepackage": "^1.0"
+    }
+}

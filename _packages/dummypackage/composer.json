@@ -1,0 +1,15 @@
+{
+    "name": "whmyr/dummypackage",
+    "description": "This package only defines a conflict in its composer.json",
+    "type": "library",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Willi Wehmeier"
+        }
+    ],
+    "conflict": {
+        "psr/http-client": "1.0.3"
+    },
+    "require": {}
+}

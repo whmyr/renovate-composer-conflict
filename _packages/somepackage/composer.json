@@ -1,0 +1,14 @@
+{
+    "name": "whmyr/somepackage",
+    "description": "This package only declares a dependency with a common version constraint",
+    "type": "library",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Willi Wehmeier"
+        }
+    ],
+    "require": {
+        "psr/http-client": "^1.0.0"
+    }
+}
